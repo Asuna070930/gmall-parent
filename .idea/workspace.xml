@@ -1,0 +1,341 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="855d62ad-12dd-4757-8b64-f1d3065129ce" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\maven\Repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../maven/apache-maven-3.6.3" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\develop\apache-maven-3.5.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="jreName" value="1.8" />
+  </component>
+  <component name="ProjectId" id="2T2g85wlHuIvXi1olj4AhtzNTmb" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "jdk.selected.JAVA_MODULE": "1.8 (3)",
+    "last_opened_file_path": "D:/Java/sphxm/gmall-parent",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "MavenSettings",
+    "spring.configuration.checksum": "3e51c2fbb1786c48e351996fee0521b7",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql"
+    ]
+  }
+}]]></component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.atguigu.gmall.activity.service" />
+      <recent name="com.atguigu.gmall.activity.mapper" />
+      <recent name="com.atguigu.gmall.payment.mapper" />
+      <recent name="com.atguigu.gmall.payment.service" />
+      <recent name="com.atguigu.gmall.order.mapper" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\idea_workspace\Java230222\gmall-parent\gmall-common\rabbit-util\src\main\java\com\atguigu\gmall\common" />
+      <recent name="E:\idea_workspace\Java230222\gmall-parent\gmall-service\service-list\src\main\resources" />
+      <recent name="E:\idea_workspace\Java230222\gmall-parent\gmall-web\web-all\src\main\resources" />
+      <recent name="E:\idea_workspace\Java230222\gmall-parent\gmall-common\web-util\src\main\java\com\atguigu\gmall" />
+      <recent name="E:\idea_workspace\Java230222\gmall-parent\gmall-service\service-product\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.atguigu.gmall.order.config" />
+      <recent name="com.atguigu.gmall.gateway.config" />
+      <recent name="com.atguigu.gmall.item.config" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ServiceProductApplication">
+    <configuration default="true" type="Application" factoryName="Application">
+      <shortenClasspath name="MANIFEST" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServerGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="server-gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.gateway.ServerGatewayApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.gmall.gateway.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceActivityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-activity" />
+      <option name="SHORTEN_COMMAND_LINE" value="MANIFEST" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.activity.ServiceActivityApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.gmall.activity.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceCartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-cart" />
+      <option name="SHORTEN_COMMAND_LINE" value="MANIFEST" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.cart.ServiceCartApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.gmall.cart.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceMqApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-mq" />
+      <option name="SHORTEN_COMMAND_LINE" value="MANIFEST" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.mq.ServiceMqApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceOrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-order" />
+      <option name="SHORTEN_COMMAND_LINE" value="MANIFEST" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.order.ServiceOrderApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServicePaymentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-payment" />
+      <option name="SHORTEN_COMMAND_LINE" value="MANIFEST" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.payment.ServicePaymentApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceProductApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-product" />
+      <option name="SHORTEN_COMMAND_LINE" value="MANIFEST" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.product.ServiceProductApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.gmall.product.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceTaskApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="service-task" />
+      <option name="SHORTEN_COMMAND_LINE" value="MANIFEST" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.task.ServiceTaskApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.atguigu.gmall.task.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceUserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service-user" />
+      <option name="SHORTEN_COMMAND_LINE" value="MANIFEST" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.user.ServiceUserApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServiceWareApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ware-manage" />
+      <option name="SHORTEN_COMMAND_LINE" value="MANIFEST" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.ware.ServiceWareApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WebAllApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="web-all" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.atguigu.gmall.weball.WebAllApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <option name="SHORTEN_COMMAND_LINE" value="MANIFEST" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.ServiceOrderApplication" />
+      <item itemvalue="Spring Boot.WebAllApplication" />
+      <item itemvalue="Spring Boot.ServiceWareApplication" />
+      <item itemvalue="Spring Boot.ServiceUserApplication" />
+      <item itemvalue="Spring Boot.ServiceMqApplication" />
+      <item itemvalue="Spring Boot.ServicePaymentApplication" />
+      <item itemvalue="Spring Boot.ServiceActivityApplication" />
+      <item itemvalue="Spring Boot.ServiceCartApplication" />
+      <item itemvalue="Spring Boot.ServiceTaskApplication" />
+      <item itemvalue="Spring Boot.ServiceProductApplication" />
+      <item itemvalue="Spring Boot.ServerGatewayApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.ServiceActivityApplication" />
+        <item itemvalue="Spring Boot.ServiceTaskApplication" />
+        <item itemvalue="Spring Boot.ServerGatewayApplication" />
+        <item itemvalue="Spring Boot.ServiceProductApplication" />
+        <item itemvalue="Spring Boot.ServiceCartApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="855d62ad-12dd-4757-8b64-f1d3065129ce" name="Changes" comment="" />
+      <created>1690246437808</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1690246437808</updated>
+      <workItem from="1690246440919" duration="1205000" />
+      <workItem from="1690247664285" duration="1259000" />
+      <workItem from="1690248941618" duration="1016000" />
+      <workItem from="1690249983826" duration="16056000" />
+      <workItem from="1690331663341" duration="17799000" />
+      <workItem from="1690503615040" duration="22425000" />
+      <workItem from="1690590278196" duration="11905000" />
+      <workItem from="1690618949663" duration="632000" />
+      <workItem from="1690691489225" duration="1449000" />
+      <workItem from="1690762953034" duration="19719000" />
+      <workItem from="1690849364242" duration="17854000" />
+      <workItem from="1690935753474" duration="19074000" />
+      <workItem from="1690981222755" duration="4741000" />
+      <workItem from="1691108283156" duration="19240000" />
+      <workItem from="1691194729129" duration="14995000" />
+      <workItem from="1691367549599" duration="13536000" />
+      <workItem from="1691396767468" duration="4000" />
+      <workItem from="1691454050889" duration="15468000" />
+      <workItem from="1691485945206" duration="715000" />
+      <workItem from="1691540218381" duration="15888000" />
+      <workItem from="1691713830870" duration="17585000" />
+      <workItem from="1691744956858" duration="1029000" />
+      <workItem from="1691764200676" duration="696000" />
+      <workItem from="1691799470412" duration="20551000" />
+      <workItem from="1691893424635" duration="53000" />
+      <workItem from="1691937479905" duration="733000" />
+      <workItem from="1691975328827" duration="12032000" />
+      <workItem from="1692060908985" duration="16961000" />
+      <workItem from="1692145562062" duration="10083000" />
+      <workItem from="1692163850801" duration="8958000" />
+      <workItem from="1692286694828" duration="686000" />
+      <workItem from="1692318166202" duration="20128000" />
+      <workItem from="1692347751875" duration="681000" />
+      <workItem from="1692404370600" duration="18041000" />
+      <workItem from="1692502715606" duration="4000" />
+      <workItem from="1692577619523" duration="12274000" />
+      <workItem from="1692595879694" duration="9724000" />
+      <workItem from="1693444393322" duration="446000" />
+    </task>
+    <task id="LOCAL-00001" summary="2023/7/25 尚品汇项目架构初始搭建">
+      <created>1690250666349</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1690250666349</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$" />
+    </ignored-roots>
+    <MESSAGE value="2023/7/25 尚品汇项目架构初始搭建" />
+    <option name="LAST_COMMIT_MESSAGE" value="2023/7/25 尚品汇项目架构初始搭建" />
+  </component>
+  <component name="XDebuggerManager">
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="org.apache.tomcat.util.http.fileupload.disk.DiskFileItem" memberName="fileName" />
+      </pinned-members>
+    </pin-to-top-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/gmall_parent$ServiceActivityApplication.ic" NAME="ServiceActivityApplication Coverage Results" MODIFIED="1692411394384" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.atguigu.gmall.activity.*</FILTER>
+    </SUITE>
+  </component>
+</project>

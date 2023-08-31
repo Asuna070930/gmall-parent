@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper SYSTEM "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.atguigu.gmall.order.mapper.OrderInfoMapper">
+
+
+    <resultMap id="orderInfoMap" type="com.atguigu.gmall.model.order.OrderInfo" autoMapping="true">
+        <id column="id" property="id"></id>
+        <collection property="orderDetailList"  ofType="com.atguigu.gmall.model.order.OrderDetail" autoMapping="true">
+            <id column="detail_id" property="id"></id>
+        </collection>
+
+
+    </resultMap>
+
+
+
+    <sql id="orderSql">
+
+        oi.id,
+            oi.consignee,
+            oi.consignee_tel,
+            oi.total_amount,
+            oi.order_status,
+            oi.user_id,
+            oi.payment_way,
+            oi.delivery_address,
+            oi.order_comment,
+            oi.out_trade_no,
+            oi.trade_body,
+            oi.process_status,
+            od.id detail_id,
+            od.order_id,
+            od.sku_id,
+            od.sku_name,
+            od.sku_num,
+            od.img_url,
+            od.order_price
+
+    </sql>
+    <select id="selectOrdersByUserId" resultMap="orderInfoMap">
+
+
+        select
+            <include refid="orderSql"></include>
+
+        from order_info oi
+                 inner join order_detail od
+                            on oi.id =od.order_id
+        where oi.user_id=#{userId} and oi.order_status != 'SPLIT'
+          and  oi.is_deleted =0     order by oi.id desc
+
+
+
+    </select>
+
+</mapper>

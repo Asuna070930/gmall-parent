@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper SYSTEM "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.atguigu.gmall.product.mapper.BaseAttrInfoMapper">
+
+    <!--
+     结果集处理
+    -->
+    <resultMap id="baseAttrInfoMap" type="com.atguigu.gmall.model.product.BaseAttrInfo" autoMapping="true">
+        <id column="id"  property="id" ></id>
+        <!--
+        column="id"：结果的别名
+         property="id"：类中的属性名
+        autoMapping="true":自动映射，必须是能够对应上的查询数据的别名和类中的属性名
+        ofType：封装关联从表中集合的泛型类型的javaBean
+        attr_value_id->  List<BaseAttrValue>  BaseAttrValue
+        -->
+        <collection property="attrValueList" ofType="com.atguigu.gmall.model.product.BaseAttrValue" autoMapping="true">
+            <id column="attr_value_id" property="id"></id>
+        </collection>
+
+
+
+    </resultMap>
+
+    <!--
+根据分类Id 获取平台属性集合
+    -->
+    <select id="selectAttrInfoList" resultMap="baseAttrInfoMap">
+
+        SELECT
+        bai.id,
+        bai.attr_name,
+        bai.category_id,
+        bai.category_level,
+        bav.id attr_value_id,
+        bav.value_name,
+        bav.attr_id
+
+        FROM
+        base_attr_info bai INNER JOIN base_attr_value bav ON bai.id=bav.attr_id and bai.is_deleted=0 and bav.is_deleted=0
+        <where>
+            <if test="category1Id!=null and category1Id!=0">
+                (category_id=#{category1Id} AND category_level=1)
+            </if>
+            <if test="category2Id!=null and category2Id!=0">
+                OR (category_id=#{category2Id} AND category_level=2 )
+            </if>
+
+            <if test="category3Id!=null and category3Id!=0">
+                OR(category_id=#{category3Id} AND category_level=3 )
+            </if>
+            ORDER BY bai.category_level ,bai.id,bav.id
+
+        </where>
+
+
+    </select>
+
+    <!--
+    根据skuId 获取平台属性数据
+    -->
+    <select id="selectAttrList"  resultMap="baseAttrInfoMap">
+        select
+            bai.id,
+            bai.attr_name,
+            bai.category_id,
+            bai.category_level,
+            bav.id attr_value_id,
+            bav.value_name,
+            bav.attr_id
+
+
+        from base_attr_info bai
+                 inner join base_attr_value bav
+                            on bai.id=bav.attr_id
+                 inner join sku_attr_value skav
+                            on bav.id=skav.value_id
+        where  skav.sku_id=#{skuId}
+
+
+    </select>
+</mapper>
